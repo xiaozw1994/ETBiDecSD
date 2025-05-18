@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)
-[![Pytorch](https://img.shields.io/badge/PyTorch-1.7%2B-orange)](https://pytorch.org/)
+[![Pytorch](https://img.shields.io/badge/PyTorch-1.3%2B-orange)](https://pytorch.org/)
 
 This repository provides the implementation of ETBiDecSD ("Ensemble Transitive Bidirectional Decoupled Self-Distillation for Time Series Classification"), a novel approach for time series classification that combines ensemble learning with bidirectional knowledge distillation.
 
