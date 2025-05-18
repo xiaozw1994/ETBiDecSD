@@ -17,6 +17,26 @@ This repository provides the implementation of ETBiDecSD ("Ensemble Transitive B
 3. Place them in the `UCRData` folder with the following structure:
 
 
+## 📂 Implementation Repository Structure
+ETBiDecSD/
+├── UCRData/                  # Dataset directory
+├── network/
+│   ├── network.py            # Model architecture
+│   └── decouple_loss.py      # Custom loss functions
+├── processing/
+│   ├── config.py             # Configuration
+│   ├── data.py               # Data processing
+│   └── augmentation.py       # Data augmentation
+├── main.py                   # Main training script
+├── requirements.txt          # Dependencies
+└── README.md                 # This file
+
+
+
+
+
+
+
 
 
 {
