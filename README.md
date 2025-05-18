@@ -81,8 +81,22 @@ weight_decay = 0.0005   # L2 regularization weight
 epoch = 500             # Total training epochs
 ```
 
+## 📂 Repository Structure (Extended) 
 
+```
+ETBiDecSD/
+├── AVG_rank/ # Storage for the AVG_rank metric tool
+│ └── drawTool.py # AVG_rank stastical code
+├── Plots/ # Publication-ready visualizations
+│ ├── figure1.png 
+│ ├── ... 
+│ └── figure10.png
+├── t-SNE/ # Dimensionality reduction visualizations
+│ ├── Mallat/ # feature visualization
+│ │ ├── Matta_FCN.png # pure FCN visualization
+│ │ └── Matta_FCN_distill.png # distilled visualization
 
+```
 
 
 
