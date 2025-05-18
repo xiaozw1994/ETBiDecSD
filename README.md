@@ -30,7 +30,11 @@ cd ETBiDecSD
 pip install -r requirements.txt
 ```
 
-## 📂 Implementation Repository Structure
+## 🚀 Quick Start
+
+python main.py
+
+## 📂 Code Implementation Repository Structure
 ```
 ETBiDecSD/
 ├── UCRData/ # Dataset directory
@@ -41,6 +45,8 @@ ETBiDecSD/
 │ ├── config.py # Configuration
 │ ├── data.py # Data processing
 │ └── augmentation.py # Data augmentation
+├── SaveModel/  # Save Model 
+│ ├── Beef.pkl # Saved Beef weights (demo)
 ├── main.py # Main implementation script (e.g., Train and Test)
 ├── requirements.txt # Dependencies
 └── README.md # This file
