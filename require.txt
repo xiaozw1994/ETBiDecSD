@@ -5,3 +5,5 @@ Keras==2.2.5
 numpy==1.18.5
 Scikit-learn == 0.24.2
 Thop == 0.0.31
+pynvml 
+psutil
