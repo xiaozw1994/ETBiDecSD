@@ -54,10 +54,14 @@ ETBiDecSD/
 
 
 
+## 📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-
-
+## Cite
+```
 {
 Authors="Zhiwen Xiao, Huanlai Xing, Rong Qu, Hui Li, Li Feng, Bowen Zhao, and Qian Wan",
 Title = "Ensemble Transitive Bidirectional Decoupled Self-Distillation for Time Series Classification,"
+Journals = "IEEE Transactions on Systems, Man, and Cybernetics: Systems (Under Review)",
 }
+```
