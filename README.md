@@ -16,9 +16,22 @@ This repository provides the implementation of ETBiDecSD ("Ensemble Transitive B
 2. Unzip the downloaded datasets
 3. Place them in the `UCRData` folder with the following structure:
 
+## 🛠 Installation
+
+1. Clone this repository:
+```
+git clone https://github.com/yourusername/ETBiDecSD.git
+cd ETBiDecSD
+'''
+
+2. Install required packages:
+
+'''
+pip install -r requirements.txt
+'''
 
 ## 📂 Implementation Repository Structure
-
+'''
 ETBiDecSD/
 ├── UCRData/ # Dataset directory
 ├── network/
@@ -31,7 +44,7 @@ ETBiDecSD/
 ├── main.py # Main implementation script (e.g., Train and Test)
 ├── requirements.txt # Dependencies
 └── README.md # This file
-
+'''
 
 
 
