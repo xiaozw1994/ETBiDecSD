@@ -22,13 +22,13 @@ This repository provides the implementation of ETBiDecSD ("Ensemble Transitive B
 ```
 git clone https://github.com/yourusername/ETBiDecSD.git
 cd ETBiDecSD
-'''
+
 
 2. Install required packages:
 
 '''
 pip install -r requirements.txt
-'''
+
 
 ## 📂 Implementation Repository Structure
 '''
@@ -44,7 +44,7 @@ ETBiDecSD/
 ├── main.py # Main implementation script (e.g., Train and Test)
 ├── requirements.txt # Dependencies
 └── README.md # This file
-'''
+
 
 
 
