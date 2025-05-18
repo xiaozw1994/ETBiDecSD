@@ -3,7 +3,7 @@ import os
 data_lib_url = "http://timeseriesclassification.com/dataset.php"
 ####dataset repo
 univarite_dimension = 1
-store_local_lib = "data/"
+store_local_lib = "UCRData/"
 #### GPU index used
 GPU_number = 0
 #### dataset name
@@ -21,4 +21,4 @@ learning_rate = 0.0001
 ##### weight_decay value
 weight_decay = 0.0005
 #### training epoch
-epoch = 200
+epoch = 500
