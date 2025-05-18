@@ -52,6 +52,39 @@ ETBiDecSD/
 └── README.md # This file
 ```
 
+## ⚙️ Configuration Parameters
+
+All model configurations are set in `processing/config.py`. Key parameters include:
+
+### Dataset Configuration
+```python
+data_lib_url = "http://timeseriesclassification.com/dataset.php"  # UCR dataset source
+univarite_dimension = 1                                          # Input dimension (1 for univariate)
+store_local_lib = "UCRData/"                                     # Local dataset storage path
+dataset_name = "Beef"                                            # Current dataset name
+```
+### Hardware Setup
+```
+GPU_number = 0  # GPU index to use (0 for first GPU)
+```
+### Loss Function Parameters
+```
+loss_coefficient = 0.1  # Weight for distillation loss
+temperate = 1.0         # Temperature for distillation
+alpha = 1.0             # Weight for target class loss
+beta = 1.0              # Weight for non-target class loss
+```
+### Training Parameters
+```
+learning_rate = 0.0001  # Initial learning rate
+weight_decay = 0.0005   # L2 regularization weight
+epoch = 500             # Total training epochs
+```
+
+
+
+
+
 
 
 ## 📜 License
