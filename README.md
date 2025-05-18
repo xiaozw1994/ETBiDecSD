@@ -18,20 +18,19 @@ This repository provides the implementation of ETBiDecSD ("Ensemble Transitive B
 
 
 ## 📂 Implementation Repository Structure
+
 ETBiDecSD/
-├── UCRData/                  # Dataset directory
+├── UCRData/ # Dataset directory
 ├── network/
-│   ├── network.py            # Model architecture
-│   └── decouple_loss.py      # Custom loss functions
+│ ├── network.py # Model architecture
+│ └── decouple_loss.py # Custom loss functions
 ├── processing/
-│   ├── config.py             # Configuration
-│   ├── data.py               # Data processing
-│   └── augmentation.py       # Data augmentation
-├── main.py                   # Main training script
-├── requirements.txt          # Dependencies
-└── README.md                 # This file
-
-
+│ ├── config.py # Configuration
+│ ├── data.py # Data processing
+│ └── augmentation.py # Data augmentation
+├── main.py # Main implementation script (e.g., Train and Test)
+├── requirements.txt # Dependencies
+└── README.md # This file
 
 
 
